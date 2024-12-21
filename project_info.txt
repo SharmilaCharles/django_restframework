@@ -1,0 +1,15 @@
+All Commends 
+--------------
+virtualenv .venv_restapi
+source .venv_restapi/bin/activate
+pip install djangorestframework
+
+create Project
+----------
+django-admin startproject BillingSystem .
+python manage.py migrate 
+
+create App
+----------
+python manage.py startapp inventory_app  
+
